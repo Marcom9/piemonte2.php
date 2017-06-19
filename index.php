@@ -1,14 +1,7 @@
-<html>
-	<head>
-		<!DOCTYPE php>
-		<html lang="en">
 		<?php
+			$title =='home'
   			include_once "header.php"; // this will include header.php
 		?>
-		<title>Piemonte</title>
-	</head>
-	<body>
-
 		<p> Il <b> Piemonte </b> è una regione dell’Italia nord-occidentale di 4.377.791 abitanti con capoluogo Torino. Confina ad ovest con la Francia, a nord-ovest con la Valle d’Aosta, a nord con la Svizzera, ad est con la Lombardia, a sud-est con l’Emilia-Romagna e a sud con la Liguria. </p>
 		<p> Il Piemonte è la seconda regione italiana per superficie, dopo la Sicilia, e la sesta per numero di abitanti. È inoltre la quarta regione italiana per esportazioni, con una quota del 10% sul totale nazionale. </p>
 		<img src="images/mappa-piemonte.jpg"><br>Il Piemonte e le sue province
@@ -33,12 +26,3 @@
 		<p> Il Piemonte ha un clima tipicamente temperato a carattere sub-continentale che sulle Alpi diventa progressivamente temperato-freddo e freddo salendo in quota. Nelle zone situate a bassa quota gli inverni sono freddi ed umidi (spesso si formano nebbie fitte) ma poco piovosi. Le estati invece sono calde ed afose con possibilità di forti temporali, specialmente nelle zone a nord del Po.  </p>
 		<p> Sulla piovosità ha molta influenza la direzione di provenienza delle masse d’aria. Se esse sono umide e provengono da sud, sud-est o est, la catena alpina sbarra loro la strada (si tratta del fenomeno detto stau): in tal caso le precipitazioni possono anche essere molto abbondanti, specialmente sui primi versanti montani, talvolta provocando alluvioni. </p>	
 
-		<!--JQuery, necessario per il Bootstrap plugins-->
-
-		<script src="js/vendor/jquery-1.11.3.min.js"></script>
-
-		<!--Include tutti i plugin compilati o includono i file singoli di cui abbiamo bisogno-->
-
-		<scrypt src="js/vendor/bootstrap.min.js"></scrypt>
-	</body>
-</html>

@@ -1,6 +1,7 @@
 
 	<head>
 	<?php
+		$title =='alpi'
 		include_once "header.php"; // this will include header.php
 	?>
 	<!-- Mete tag, per la grandezza della pagina rispetto alla grandezza del dispositivo su cui stiamo guardando-->
